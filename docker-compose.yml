@@ -1,0 +1,12 @@
+version: '3.9'
+services:
+  nestapp:
+    container_name: nestapp
+    image: nestjs
+    volumes:
+      - type: bind
+        source: .
+        target: /apps
+    build: .
+    ports:
+      - 3001:3001

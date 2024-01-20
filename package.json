@@ -1,0 +1,12 @@
+{
+  "name": "overcode-homework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "SERVER_PORT=3000 VITE_PORT=5173 pnpm run --parallel dev "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
