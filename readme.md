@@ -5,12 +5,14 @@ Hi! I'm John Ward.
 
 # Start installation
 
-At the main dir run 
+At the main dir run
+
 `pnpm install`
 
 ## Env
 
-Navigate to apps/server
+Navigate to apps/server and run
+
 `cp .env.example .env`
 
 paste your connection string.
